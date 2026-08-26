@@ -1,0 +1,88 @@
+# Godot 4 editor cache
+# Contains imported resources, script cache, and other generated files.
+.godot/
+
+# Godot 3 import cache (kept for compatibility)
+.import/
+
+# Temporary and swap files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE metadata
+.idea/
+.vscode/
+.vs/
+*.iml
+.project
+.settings/
+.metadata/
+.classpath
+.factorypath
+.launch/
+.recommenders/
+.apt_generated/
+.build/
+.factory/
+.gradle/
+.ivy2/
+.kotlin/
+.mtj.tmp
+.springBeans
+.sts4-cache/
+
+# Logs
+*.log
+
+# Local export configuration (often machine-specific)
+export_presets.cfg
+
+# Local build / export artifacts
+build/
+export/
+*.zip
+*.apk
+*.aab
+*.xapk
+*.ipa
+*.exe
+*.app
+*.dmg
+*.msi
+*.deb
+*.rpm
+*.AppImage
+
+# Python tooling caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# General local caches
+.cache/
+.npm/
+.yarn/
+.pnp.*
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.nuxt/
+.svelte-kit/
+.output/
+.next/
+.vercel/
+.netlify/
+.wwebjs-node/
